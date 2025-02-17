@@ -1,0 +1,6 @@
+selected resource name:		increm_data_pipeline
+selected resource type:		pipeline
+factory name:			adf-cars-rohith
+factory location:		eastus
+subscription id:		eb30d5db-b478-4488-b971-84719b30aa6f
+time of download (UTC):		Mon, 17 Feb 2025 17:16:10 GMT

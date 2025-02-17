@@ -1,0 +1,65 @@
+{
+    "name": "ds_bronze",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_datalake",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "rawdata",
+                "fileSystem": "bronze"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": [
+            {
+                "name": "Branch_ID",
+                "type": "UTF8"
+            },
+            {
+                "name": "Dealer_ID",
+                "type": "UTF8"
+            },
+            {
+                "name": "Model_ID",
+                "type": "UTF8"
+            },
+            {
+                "name": "Revenue",
+                "type": "INT64"
+            },
+            {
+                "name": "Units_Sold",
+                "type": "INT64"
+            },
+            {
+                "name": "Date_ID",
+                "type": "UTF8"
+            },
+            {
+                "name": "Day",
+                "type": "INT32"
+            },
+            {
+                "name": "Month",
+                "type": "INT32"
+            },
+            {
+                "name": "Year",
+                "type": "INT32"
+            },
+            {
+                "name": "BranchName",
+                "type": "UTF8"
+            },
+            {
+                "name": "DealerName",
+                "type": "UTF8"
+            }
+        ]
+    }
+}
