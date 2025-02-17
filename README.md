@@ -21,7 +21,7 @@ The goal of this project is to build an end-to-end data pipeline that ingests, p
 
 ## Architecture
 
-![Architecture Diagram]("C:\Users\HP\OneDrive\Desktop\ADF_project.png")
+![Architecture Diagram]("ADF_project.png")
 
 *Briefly describe the architecture, including data flow and the interaction between different Azure services.*
 
