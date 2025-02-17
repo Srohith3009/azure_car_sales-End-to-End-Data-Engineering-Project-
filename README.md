@@ -21,7 +21,7 @@ The goal of this project is to build an end-to-end data pipeline that ingests, p
 
 ## Architecture
 
-![Architecture Diagram]("https://github.com/Srohith3009/azure_car_sales-End-to-End-Data-Engineering-Project-/blob/main/ADF_project.png")
+![Architecture Diagram]("/ADF_project.png")
 
 *Briefly describe the architecture, including data flow and the interaction between different Azure services.*
 
